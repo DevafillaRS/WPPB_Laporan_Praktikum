@@ -1,8 +1,6 @@
 import "package:flutter/material.dart";
-
 class DetailPage extends StatelessWidget {
   const DetailPage({Key? key}) : super(key: key);
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -34,6 +32,22 @@ class DetailPage extends StatelessWidget {
                       children: const [
                         Icon(Icons.calendar_today),
                         Text("Open Everyday"),
+                      ],
+                    ),
+                  ),
+                  Container(
+                    child: Column(
+                      children: const [
+                        Icon(Icons.access_time),
+                        Text("08:00 - 16:00"),
+                      ],
+                    ),
+                  ),
+                  Container(
+                    child: Column(
+                      children: const [
+                        Icon(Icons.attach_money),
+                        Text("Rp 10.000,-"),
                       ],
                     ),
                   ),
