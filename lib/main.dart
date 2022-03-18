@@ -24,7 +24,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         fontFamily: "Inter",
       ),
-      home: const MainScreen(),
+      home: MainScreen(),
     );
   }
 }
