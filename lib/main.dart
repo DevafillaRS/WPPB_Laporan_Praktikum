@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:percobaan_3/provider/done_tourism_provider.dart';
-import 'package:provider/provider.dart';
-import 'views/main_screen.dart';
+import 'package:percobaan_5/ui/article_detail_page.dart';
+import 'package:percobaan_5/ui/article_list_page.dart';
+import 'package:percobaan_5/ui/article_web_view.dart';
 
 void main() {
   runApp(const MyApp());
@@ -9,20 +9,19 @@ void main() {
 class MyApp extends StatelessWidget {
   const MyApp({Key? key}) : super(key: key);
   // This widget is the root of your application.
-
   @override
   Widget build(BuildContext context) {
-    return ChangeNotifierProvider(
-        create: (context) => DoneTourismProvider(),
-    child: MaterialApp(
+    return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
-
-     primarySwatch: Colors.blue,
-     fontFamily: "Inter",
-    ),
-      home: MainScreen(),
-    ),
+        primarySwatch: Colors.blue,
+      ),
+      initialRoute: '/',
+      routes: {
+        '/': (context) => ArticleListPage(),
+        '/article_web': (context) => const ArticleWebView(),
+        '/article_detail': (context) => const ArticleDetailPage(),
+      },
     );
   }
 }
