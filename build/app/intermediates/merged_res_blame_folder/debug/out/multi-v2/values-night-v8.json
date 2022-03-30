@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\ASUS\\Documents\\PENS\\Tugas PENS\\Semester 4\\Praktikum\\P2 _WPPB\\percobaan_5\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-night-v8\\values-night-v8.xml",
+            "outputFile": "C:\\Users\\ASUS\\Documents\\PENS\\Tugas PENS\\Semester 4\\Praktikum\\P2 _WPPB\\tugas_5\\tugas_frontend_5\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-night-v8\\values-night-v8.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\ASUS\\Documents\\PENS\\Tugas PENS\\Semester 4\\Praktikum\\P2 _WPPB\\percobaan_5\\android\\app\\src\\main\\res\\values-night\\styles.xml",
+                    "source": "C:\\Users\\ASUS\\Documents\\PENS\\Tugas PENS\\Semester 4\\Praktikum\\P2 _WPPB\\tugas_5\\tugas_frontend_5\\android\\app\\src\\main\\res\\values-night\\styles.xml",
                     "from": {
                         "startLines": "3,14",
                         "startColumns": "4,4",

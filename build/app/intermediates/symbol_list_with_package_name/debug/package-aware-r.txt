@@ -1,4 +1,4 @@
-com.example.percobaan_5
+com.example.tugas_frontend_5
 attr activityAction
 attr activityName
 attr alpha
